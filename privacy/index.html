@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Astro Stars — Confidentialité</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b0d14; --ink:#eee7d7; --mist:#a0a2b0; --amber:#ecb96b; }
+    body { margin:0; font:16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background:var(--bg); color:var(--ink); }
+    main { max-width:40rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+    h1 { font-family: "New York", "Times New Roman", serif; font-weight:600; font-size:2rem; margin:0 0 .75rem; }
+    h2 { font-size:1.1rem; margin:2rem 0 .6rem; color:var(--ink); }
+    .eyebrow { color:var(--amber); letter-spacing:.08em; text-transform:uppercase; font-size:.75rem; font-weight:600; }
+    p, li { color:var(--mist); }
+    a { color:var(--amber); }
+    .meta { font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Astro Stars</p>
+    <h1>Politique de confidentialité</h1>
+    <p class="meta">Dernière mise à jour&nbsp;: 10 septembre 2026</p>
+
+    <p>Astro Stars est une application d’astrologie conçue pour calculer et afficher ton ciel <strong style="color:var(--ink)">sur ton appareil</strong>. Cette page explique quelles données sont traitées.</p>
+
+    <h2>Données calculées sur l’appareil</h2>
+    <p>Le thème natal, les transits, la lettre du jour et les lectures associées sont calculés localement à partir des informations que tu saisis (prénom, date/heure/lieu de naissance, préférences).</p>
+
+    <h2>Stockage</h2>
+    <ul>
+      <li>Profils et journal&nbsp;: stockés via les frameworks Apple sur ton appareil&nbsp;; la synchronisation iCloud peut s’appliquer si tu l’as activée pour l’app.</li>
+      <li>Préférences (onglet, notifications, options d’affichage)&nbsp;: UserDefaults / réglages locaux, éventuellement reflétées via iCloud Key-Value si disponible.</li>
+    </ul>
+
+    <h2>Compte</h2>
+    <p>Tu peux utiliser l’app en invité. Si tu relies Sign in with Apple, l’identifiant Apple fourni à l’app sert uniquement à restaurer ton mode de compte.</p>
+
+    <h2>Achats</h2>
+    <p>Les abonnements Premium passent par StoreKit / App Store. Apple traite le paiement&nbsp;; nous ne recevons pas tes données de carte bancaire.</p>
+
+    <h2>Notifications</h2>
+    <p>Si tu actives les notifications, le système planifie des rappels locaux liés à ton ciel. Aucun serveur tiers n’est requis pour ces rappels locaux.</p>
+
+    <h2>Pas de tracking publicitaire</h2>
+    <p>Astro Stars ne fait pas de suivi publicitaire cross-app (App Tracking Transparency non utilisé pour de la pub). La déclaration de confidentialité App Store reflète l’absence de collecte listée pour le tracking.</p>
+
+    <h2>IA locale</h2>
+    <p>Certaines fonctions conversationnelles peuvent utiliser des modèles on-device (Apple Intelligence / modèles locaux). Le contenu reste traité sur l’appareil dans ces modes.</p>
+
+    <h2>Contact</h2>
+    <p>Questions confidentialité&nbsp;: <a href="mailto:support@appsdev.com?subject=Astro%20Stars%20Privacy">support@appsdev.com</a></p>
+    <p><a href="../support/">Assistance</a></p>
+  </main>
+</body>
+</html>
